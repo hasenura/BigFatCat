@@ -1,0 +1,147 @@
+:root {
+  --nude: #: #A07B50;
+  ;
+}
+
+:root {
+  --gray:#DDD0C3;
+
+}
+
+:root {
+  --no-white:#FDF2E6 83%;
+
+}
+
+.color-no-white {
+color: var(--no-white)
+}
+
+.main-information {
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;  
+  color: var(--nude);
+}
+}
+
+.h1 {
+  font-family: Yeseva One;
+  font-size: 52px;
+  line-height: 60px;
+}
+}
+
+.button {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 16px;  
+}
+
+.title {
+  font-family: Yeseva One;
+  font-size: 36px;
+  line-height: 42px;
+}
+
+.subtitle {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 26px;
+  text-align: center;
+  color: var(--nude);
+}
+
+.catalog-button {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+}
+
+.features-description, .review, .location, .telephone {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 21px;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.tips-title {
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 26px;
+  color: var(--nude);
+  }
+
+.tips-text, {
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 23px;
+}
+
+.team-text {
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 25px;
+  color: var(--nude);
+}
+
+.post {
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 22px;
+  color: var(--nude);
+}
+
+.number {
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 70px;
+  line-height: 82px;
+  color: var(--nude);
+}
+
+.qustion {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--gray)
+}
+
+.reply {
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 25px;
+  color: var(--gray)
+}
+
+.people-name {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.date {
+  font-family: Roboto;
+font-size: 12px;
+line-height: 19px;
+color: var(--nude);
+}
+
