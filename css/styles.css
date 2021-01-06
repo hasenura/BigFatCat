@@ -1,7 +1,7 @@
 :root {
   --nude: #: #A07B50;
   --gray:#DDD0C3;
-  --milky:#FDF2E6 83%;
+  --milky:#FDF2E6;
   ;
 }
 
@@ -13,7 +13,7 @@ color: var(--milky)
   font-family: Roboto;
 }
  
-.font-titles {
+.font-yesevs {
 font-family: Yeseva One;
 }
 
@@ -131,3 +131,6 @@ font-family: Yeseva One;
   color: var(--nude);
 }
 
+.location {
+  opacity: 83%;
+}
