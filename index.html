@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/styles.css">
   <title>
     Питомник Мейн-Кунов
   </title>
@@ -10,45 +11,51 @@
 <body>
   <header>
     <section class="promo">
-      <div>
-        <img src="./images/crown.svg" alt="логотип" width="53" height="24"> 
-      </div>
-      <div>
-        <div class="left-column">
-          <p class="main-information">
-            Новосибирск
-          </p>
-          <h1 class="font-yeseva">
-            Питомник Мейн-Кунов
-          </h1> 
-          <p class="main-information">
-            Первый питомник с расширенным спектром услуг
-          </p>
-          <a href="#" class="button">
-            Смотреть котиков
-          </a>
+      <div class="container">
+        <div class="crown">
+          <img src="./images/crown.svg" alt="логотип" width="53" height="24"> 
         </div>
-        <div class="right-column">
-          <img src="./images/main-cat@1x.png" srcset="./images/main-cat@2x.png 2x" width="1068" height="612" alt="Рыжий мейн-кун">
+        <div class="promo-content">
+          <div class="left-column">
+            <p class="main-information city">
+              Новосибирск
+            </p>
+            <h1 class="font-yeseva">
+              Питомник 
+              <br>
+              Мейн-Кунов
+            </h1> 
+            <p class="main-information description">
+              Первый питомник с расширенным 
+              <br>
+              спектром услуг
+            </p>
+            <a href="#" class="button watch-cats">
+              Смотреть котиков
+            </a>
+          </div>
+          <div class="right-column">
+            <img src="./images/main-cat@1x.png" srcset="./images/main-cat@2x.png 2x" width="1068" height="612" alt="Рыжий мейн-кун">
+          </div>
         </div>
-      </div>
-      <div class="header-social">
-        <ul>
-          <li>
-            <a href="#">
-              <img src="./images/social-vk.svg" width="13" height="8" alt="лого вконтакте">
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <img src="./images/social-tweeter.svg" width="15.08" heigh="10.39" alt="лого твиттер">
-            </a>
-          </li>
-          <li>
-            <a href="#"><img src="./images/social-fb.svg" width="5.08" height="10.9" alt="лого фейсбук">
-            </a>
-          </li>
-        </ul>
+        <div class="header-social">
+          <ul>
+            <li class="header-social-item">
+              <a href="#">
+                <img src="./images/social-vk.svg" width="13" height="8" alt="лого вконтакте" class="header-vk">
+              </a>
+            </li>
+            <li class="header-social-item">
+              <a href="#">
+                <img src="./images/social-tweeter.svg" width="15.08" heigh="10.39" alt="лого твиттер" class="header-tw">
+              </a>
+            </li>
+            <li class="header-social-item">
+              <a href="#"><img src="./images/social-fb.svg" width="5.08" height="10.9" alt="лого фейсбук" class="header-fb">
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </section>
   </header>
