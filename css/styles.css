@@ -1,0 +1,136 @@
+:root {
+  --nude: #: #A07B50;
+  --gray:#DDD0C3;
+  --milky:#FDF2E6;
+  ;
+}
+
+.color-milky {
+color: var(--milky)
+}
+
+.body {
+  font-family: Roboto;
+}
+ 
+.font-yeseva {
+font-family: Yeseva One;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.align-center {
+  text-align: center;
+ }
+
+ .main-information {
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;  
+  color: var(--nude);
+}
+
+
+.h1 {
+  font-size: 52px;
+  line-height: 60px;
+}
+
+
+.button {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 16px;  
+}
+
+.title {
+  font-size: 36px;
+  line-height: 42px;
+}
+
+.subtitle {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 26px;
+  text-align: center;
+  color: var(--nude);
+}
+
+.catalog-buttons {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+}
+
+.features-description, .review, .location, .phone {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 21px;
+}
+
+}
+
+.tips-title {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 26px;
+  color: var(--nude);
+  }
+
+.tips-text {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 23px;
+}
+
+.quote {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 25px;
+  color: var(--nude);
+}
+
+.post {
+  font-size: 16px;
+  line-height: 22px;
+  color: var(--nude);
+}
+
+.number {
+  font-weight: bold;
+  font-size: 70px;
+  line-height: 82px;
+  color: var(--nude);
+}
+
+.question {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--gray)
+}
+
+.reply {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 25px;
+  color: var(--gray)
+}
+
+.customer-name {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.date {
+  font-size: 12px;
+  line-height: 19px;
+  color: var(--nude);
+}
+
+.location {
+  opacity: 0.83;
+}
