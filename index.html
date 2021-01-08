@@ -16,7 +16,7 @@
           <img src="./images/crown.svg" alt="логотип" width="53" height="24"> 
         </div>
         <div class="promo-content">
-          <div class="left-column">
+          <div class="promo-left-column">
             <p class="main-information city">
               Новосибирск
             </p>
@@ -34,7 +34,7 @@
               Смотреть котиков
             </a>
           </div>
-          <div class="right-column">
+          <div class="promo-right-column">
             <img src="./images/main-cat@1x.png" srcset="./images/main-cat@2x.png 2x" width="1068" height="612" alt="Рыжий мейн-кун">
           </div>
         </div>
@@ -61,33 +61,40 @@
   </header>
   <main>
     <section class="catalog">
-      <h2 class="title font-yeseva">
+      <div class="container">
+        <h2 class="title font-yeseva pats">
         Питомцы
-      </h2>
-      <p class="subtitle">
-        Все представители нашего питомника имеют ветеринарный паспорт 
-        с отметками о прививках и документ с родословной
-      </p>
+        </h2>
+        <p class="subtitle">
+          Все представители нашего питомника имеют ветеринарный паспорт 
+          <br>
+          с отметками о прививках и документ с родословной
+        </p>
 
-      <div class="catalog-buttons">
-        <button type="button" class=catalog-button>
-          Коты
-        </button>
-        <button type="button" class="catalog-button">
-          Кошки
-        </button>
-        <button type="button" class="catalog-button">
-          Котята
-        </button>
-    </div>
-
-      <img src="./images/white-cat@1x.png" srcset="./images/white-cat@2x.png 2x" width="549" height="385" alt="Белый мейн-кун">
-      <img src="./images/tiger-cat@1x.png" srcset="./images/tiger-cat@2x.png 2x" width="535" height="241" alt="Тигровый мейн-кун">
-      <img src="images/gray-cat@1x.png" srcset="./images/gray-cat@2x.png 2x" width="530" height="530" alt="Серый котёнок мейн-куна">
-      
-      <a href="#" class="button">
-        Смотреть больше
-      </a> 
+        <div class="catalog-buttons">
+          <button type="button" class="catalog-button active" >
+            Коты
+          </button>
+          <button type="button" class="catalog-button">
+            Кошки
+          </button>
+          <button type="button" class="catalog-button">
+            Котята
+          </button>
+        </div>
+          <div class="catalog-photos">
+            <div class="catalog-left-column">
+              <img src="./images/white-cat@1x.png" srcset="./images/white-cat@2x.png 2x" width="549" height="385" alt="Белый мейн-кун">
+              <img src="./images/tiger-cat@1x.png" srcset="./images/tiger-cat@2x.png 2x" width="535" height="241" alt="Тигровый мейн-кун">
+            </div>
+            <div class="catalog-right-column">
+              <img src="images/gray-cat@1x.png" srcset="./images/gray-cat@2x.png 2x" width="530" height="530" alt="Серый котёнок мейн-куна">
+            </div>
+          </div>
+            <a href="#" class="button watch-more">
+              Смотреть больше
+            </a> 
+      </div>
     </section>
   
     <section class="features">
