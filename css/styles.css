@@ -6,6 +6,7 @@
   --white: #ffffff;
   --paleBlack: #1F1C1D;
   --opacityWhite20: rgba(255, 255, 255, 0.2);
+  --blackCircle: #151313;
 
 }
 
@@ -23,6 +24,10 @@ body {
 .container {
   width: 1024px;
   margin: 0 auto;
+}
+
+.container-xl {
+  width: 1090px;
 }
 
 img {
@@ -251,12 +256,165 @@ color: var(--white);
 .button.watch-more {
   display: flex;
   max-width: 200px;
-  margin: 0 auto;
+  margin: 0 auto 83px auto;
   text-decoration: none;
   color: var(--white);
   padding: 18px 39px 17px;
   border: solid 1px var(--nude); 
 }
+
+.features {
+  padding-bottom: 108px;
+
+  background-color: var(--paleBlack);
+}
+
+.breed-features {
+  margin-bottom:23px ;
+}
+
+.features-content {
+  position: relative;
+
+  min-height: 630px;
+  margin-top: 70px;
+}
+
+.features-content::before {
+  content: '';
+  position: absolute;
+  top: 56px;
+  left: calc(50% - 260px);
+  z-index: 0;
+
+  width: 520px;
+  height: 520px;
+
+  background-color: var(--blackCircle);
+  border-radius: 50%;
+}
+
+.features-content::after {
+  content: '';
+
+  position: absolute;
+  top: 0;
+  left: calc(50% - 315px);
+  z-index: 0;
+
+  width: 630px;
+  height: 630px;
+
+  background-color: transparent;
+  border: 1px solid var(--nude);
+  border-radius: 50%;
+}
+
+.features-cat {
+  z-index: 1;
+  position: absolute;
+  top: -140px;
+  left: calc(50% - 296px);
+
+  width: 623px;
+  height: 908px;
+}
+
+.features-list {
+  position: absolute;
+
+  width: 100%;
+  height: 100%;
+
+  color: var(--white);
+
+}
+
+.features-description{
+  position: absolute;
+}
+
+.features-left{
+  position: absolute;
+}
+
+.features-left:first-child {
+  top: 137px;
+  left: 21px;
+}
+
+.features-left:first-child::before {
+  content: '';
+  position: absolute;
+  top: 5px;
+  right: -32px;
+
+  width: 15px;
+  height: 15px;
+
+  border-radius: 50%;
+  background-color: var(--nude);
+}
+
+.features-left:last-child {
+  top: 423px;
+  left: 52px;
+}
+
+.features-left:last-child::before {
+  content: '';
+  position: absolute;
+  top: 5px;
+  right: -47px;
+
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+
+  background-color: var(--nude);
+}
+
+.features-right {
+  position: absolute;
+  right: 0;
+}
+
+.features-right:first-child {
+  top: 246px;
+  right:43px;
+}
+
+.features-right:first-child::before {
+  content: '';
+  position: absolute;
+  top: 5px;
+  left: -38px;
+
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+
+  background-color: var(--nude);
+}
+
+.features-right:last-child {
+  top:466px ;
+  left:852px;
+}
+
+.features-right:last-child::before {
+  content: '';
+  position: absolute;
+  top: 5px;
+  left: -43px;
+
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+
+  background-color: var(--nude);
+}
+
 
 .features-description, .review, .location, .phone {
   font-size: 14px;
