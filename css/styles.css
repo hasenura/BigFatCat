@@ -6,16 +6,16 @@
   --white: #ffffff;
   --paleBlack: #1F1C1D;
   --opacityWhite20: rgba(255, 255, 255, 0.2);
-  --opacityWhite72: rgba(255, 255, 255, 0,72);
+  --opacityWhite72: rgba(255, 255, 255, 0.72);
   --blackCircle: #151313;
   --opacityBlack30: rgba(0,0,0,0.3);
   --light:rgba(221,208,195,1);
   --lightYellow: rgba(253,242,230,0.83);
 
 
-  )
-
 }
+
+
 
 body {
   padding: 0;
@@ -139,7 +139,7 @@ color: var(--white);
 .promo-right-column {
   position: absolute;
   right: 0;
-  top: -45px;
+  top: 0;
 }
 
 .header-social {
@@ -203,6 +203,8 @@ color: var(--white);
   padding-top: 223px;
   padding-bottom:83px;
   background-color: var(--paleBlack) ;
+
+  
 }
 
 .pats {
@@ -214,6 +216,7 @@ color: var(--white);
  justify-content: center;
  margin-top: 38px;
  margin-bottom: 45px;
+
 }
 
 .catalog-button {
@@ -226,6 +229,7 @@ color: var(--white);
   appearance: none;
   border: none;
   background-color: transparent;
+  cursor: pointer;
 }
 
 .catalog-button:nth-child(2) {
@@ -263,7 +267,7 @@ color: var(--white);
 .button.watch-more {
   display: flex;
   max-width: 200px;
-  margin: 0 auto 83px auto;
+  margin: 0 auto 0px auto;
   text-decoration: none;
   color: var(--white);
   padding: 18px 39px 17px;
@@ -514,6 +518,8 @@ color: var(--white);
   top: 0px;
 
   background-color: var(--nude);
+
+  cursor: pointer;
 }
 
 .tips-button img {
@@ -785,10 +791,11 @@ flex-direction: column;
   width: 104px;
   height: 100%;
 
-  font-size: ;
-
-  border: 1px solid var(--nude);
+  border: none;
+  border-left: 1px solid var(--nude);
   background-color: transparent;
+
+  cursor: pointer;
 }
 
 .question-button img {
@@ -991,4 +998,8 @@ flex-direction: column;
   opacity: 0.83;
   color: var(--lightYellow);
   margin-right: 68px;
+}
+
+.phone-bold {
+  font-weight: bold;
 }
