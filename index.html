@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/styles.css">
   <title>
     Питомник Мейн-Кунов
   </title>
@@ -10,327 +11,482 @@
 <body>
   <header>
     <section class="promo">
-      <div>
-        <img src="./images/crown.svg" alt="логотип" width="53" height="24"> 
-      </div>
-      <div>
-        <div class="left-column">
-          <p class="main-information">
-            Новосибирск
-          </p>
-          <h1 class="font-yeseva">
-            Питомник Мейн-Кунов
-          </h1> 
-          <p class="main-information">
-            Первый питомник с расширенным спектром услуг
-          </p>
-          <a href="#" class="button">
-            Смотреть котиков
-          </a>
+      <div class="container">
+        <div class="crown">
+          <img src="./images/crown.svg" alt="логотип" width="53" height="24"> 
         </div>
-        <div class="right-column">
-          <img src="./images/main-cat@1x.png" srcset="./images/main-cat@2x.png 2x" width="1068" height="612" alt="Рыжий мейн-кун">
+        <div class="promo-content">
+          <div class="promo-left-column">
+            <p class="main-information city">
+              Новосибирск
+            </p>
+            <h1 class="font-yeseva">
+              Питомник 
+              <br>
+              Мейн-Кунов
+            </h1> 
+            <p class="main-information description">
+              Первый питомник с расширенным 
+              <br>
+              спектром услуг
+            </p>
+            <a href="#" class="button watch-cats">
+              Смотреть котиков
+            </a>
+          </div>
+          <div class="promo-right-column">
+            <img src="./images/main-cat@1x.png" srcset="./images/main-cat@2x.png 2x" width="1068" height="612" alt="Рыжий мейн-кун">
+          </div>
         </div>
-      </div>
-      <div class="header-social">
-        <ul>
-          <li>
-            <a href="#">
-              <img src="./images/social-vk.svg" width="13" height="8" alt="лого вконтакте">
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <img src="./images/social-tweeter.svg" width="15.08" heigh="10.39" alt="лого твиттер">
-            </a>
-          </li>
-          <li>
-            <a href="#"><img src="./images/social-fb.svg" width="5.08" height="10.9" alt="лого фейсбук">
-            </a>
-          </li>
-        </ul>
+        <div class="header-social">
+          <ul>
+            <li class="header-social-item">
+              <a href="#">
+                <img src="./images/social-vk.svg" width="13" height="8" alt="лого вконтакте" class="header-vk">
+              </a>
+            </li>
+            <li class="header-social-item">
+              <a href="#">
+                <img src="./images/social-tweeter.svg" width="15.08" heigh="10.39" alt="лого твиттер" class="header-tw">
+              </a>
+            </li>
+            <li class="header-social-item">
+              <a href="#"><img src="./images/social-fb.svg" width="5.08" height="10.9" alt="лого фейсбук" class="header-fb">
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </section>
   </header>
   <main>
     <section class="catalog">
-      <h2 class="title font-yeseva">
+      <div class="container">
+        <h2 class="title font-yeseva pats">
         Питомцы
-      </h2>
-      <p class="subtitle">
-        Все представители нашего питомника имеют ветеринарный паспорт 
-        с отметками о прививках и документ с родословной
-      </p>
+        </h2>
+        <p class="subtitle">
+          Все представители нашего питомника имеют ветеринарный паспорт 
+          <br>
+          с отметками о прививках и документ с родословной
+        </p>
 
-      <div class="catalog-buttons">
-        <button type="button" class=catalog-button>
-          Коты
-        </button>
-        <button type="button" class="catalog-button">
-          Кошки
-        </button>
-        <button type="button" class="catalog-button">
-          Котята
-        </button>
-    </div>
-
-      <img src="./images/white-cat@1x.png" srcset="./images/white-cat@2x.png 2x" width="549" height="385" alt="Белый мейн-кун">
-      <img src="./images/tiger-cat@1x.png" srcset="./images/tiger-cat@2x.png 2x" width="535" height="241" alt="Тигровый мейн-кун">
-      <img src="images/gray-cat@1x.png" srcset="./images/gray-cat@2x.png 2x" width="530" height="530" alt="Серый котёнок мейн-куна">
-      
-      <a href="#" class="button">
-        Смотреть больше
-      </a> 
+        <div class="catalog-buttons">
+          <button type="button" class="catalog-button active" >
+            Коты
+          </button>
+          <button type="button" class="catalog-button">
+            Кошки
+          </button>
+          <button type="button" class="catalog-button">
+            Котята
+          </button>
+        </div>
+          <div class="catalog-photos">
+            <div class="catalog-left-column">
+              <img src="./images/white-cat@1x.png" srcset="./images/white-cat@2x.png 2x" width="549" height="385" alt="Белый мейн-кун">
+              <img src="./images/tiger-cat@1x.png" srcset="./images/tiger-cat@2x.png 2x" width="535" height="241" alt="Тигровый мейн-кун">
+            </div>
+            <div class="catalog-right-column">
+              <img src="images/gray-cat@1x.png" srcset="./images/gray-cat@2x.png 2x" width="530" height="530" alt="Серый котёнок мейн-куна">
+            </div>
+          </div>
+            <a href="#" class="button watch-more">
+              Смотреть больше
+            </a> 
+      </div>
     </section>
   
     <section class="features">
-      <h2 class="title font-yeseva">
-        Особенности породы
-      </h2>
-      <p class="subtitle">
-        Мейн-Кун - это порода, которая вызывает к себе уважение. Приобретая в свой дом этого питомца, 
-        вы получите умное животное, которому нет равных 
-      </p>
-      <div>
-        <div>
-          <img src="./images/orange-cat@1x.png" srcset="./images/orange-cat@2x.png 2x" width="623" height="908" alt="Большой рыжий кот в полный рост">
-        </div>
-        <div class="features-list">
-          <div>
-            <p class="features-description align-right" >
-              Легко уживается в семьях с детьми или другими животными
+      <div class="container container-xl ">
+        <h2 class="title font-yeseva breed-features">
+          Особенности породы
+        </h2>
+        <p class="subtitle ">
+          Мейн-Кун - это порода, которая вызывает к себе уважение. Приобретая в свой дом этого питомца, 
+          <br>
+          вы получите умное животное, которому нет равных 
+        </p>
+        <div class="features-content">
+          <div class="features-cat"> 
+            <img src="./images/orange-cat@1x.png" srcset="./images/orange-cat@2x.png 2x" width="623" height="908" alt="Большой рыжий кот в полный рост">
+          </div>
+          <div class="features-list">
+            <div>
+              <p class="features-description align-right features-left" >
+                Легко уживается в семьях с детьми
+                <br>
+                 или другими животными
+              </p>
+              <p class="features-description align-right features-left" >
+                Внешний вид этой кошки
+                <br>
+                 похож на дикую рысь
+              </p>
+          </div>
+            <div>
+              <p class="features-description  features-right" >
+              Выполняет команды как 
+              <br>
+              дрессированная собака
             </p>
-            <p class="features-description align-right" >
-              Внешний вид этой кошки похож на дикую рысь
+            <p class="features-description  features-right" >
+              Вес может достигать 
+              <br>
+               кг, а длина 1 м
             </p>
-        </div>
-          <div>
-            <p class="features-description" >
-            Выполняет команды как дрессированная собака
-          </p>
-          <p class="features-description" >
-            Вес может достигать 12 кг, а длина 1 м
-          </p>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
     <section class="about-us">
-      <h2 class="title font-yeseva">
-        Почему именно мы?
-      </h2>
-      <p class="subtitle">
-        Приобретая  животное в нашем питомнике, вы получите
-      </p>
-      <div>
-        <div>
-          <img src="./images/stetoscope.svg" width="97.79" height="107">
-          <p class="features-description align-center">
-            Бесплатное ветеринарное обслуживание 5 лет
-          </p> 
-        </div>
+      <div class="container">
+        <h2 class="title font-yeseva about-us-title">
+         Почему именно мы?
+        </h2>
+        <p class="subtitle">
+          Приобретая  животное в нашем питомнике, вы получите
+        </p>
 
-        <div>
-          <img src="./images/consultation.svg" width="107" height="95.06">
-          <p class=features-description align-center">
-            Консультирование по любому вопросу 24 часа в сутки
-        </div>
+        <div class="about-us-list">
 
-        <div>
-          <img src="./images/carton.svg" width="70.15" height="108">
-          <p class="features-description align-center">
-            Индивидуальный подбор питания для вашего кота
-          </p>
-        </div>
-      </div>
+          <div class="about-us-item active">
+            <img src="./images/stetoscope.svg" width="97.79" height="107">
+            <p class="about-us-text align-center">
+              Бесплатное ветеринарное 
+              <br>
+              обслуживание 5 лет
+            </p> 
+          </div>
   
+          <div class="about-us-item">
+            <img src="./images/consultation.svg" width="107" height="95.06">
+            <p class="about-us-text align-center">
+              Консультирование по любому
+              <br>
+               вопросу 24 часа в сутки
+          </div>
+  
+          <div class="about-us-item">
+            <img src="./images/carton.svg" width="70.15" height="108">
+            <p class="about-us-text align-center">
+              Индивидуальный подбор
+              <br>
+               питания для вашего кота
+            </p>
+          </div>
+        </div>
+      </div>  
     </section>
+
     <section class="tips">
-      <div class="tips-background"></div>
-      <h2 class="title font-yeseva">
-        Об уходе за Мейн-Куном
-      </h2> 
+        <div class="tips-background"></div>
+        <h2 class="title font-yeseva tips-main-title">
+          Об уходе за Мейн-Куном
+        </h2> 
 
-    <div>
-      <div> 
-        <h3 class="tips-title">
-          Шерсть
-        </h3>
-        <p class="tips-text">
-          Мы разработали 8 правил, следуя которым, шерсть вашего 
-          кота всегда будет блестящей, мягкой и послушной
-        </p>
-        <img src="./images/arrow.svg" width="15.96" height="10.56">
+      <div class="container">
+        <div class="tips-blocks"> 
+          <div class="tips-left-blocks">
+
+            <div class="tips-left-block">
+              <div class="tips-sign">
+                <h3 class="tips-title">
+                  Шерсть
+                </h3>
+                <p class="tips-text">
+                  Мы разработали 8 правил, следуя которым, шерсть вашего 
+                  кота всегда будет блестящей, мягкой и послушной
+                </p>
+              </div>
+              <a>
+                <div class="tips-button">
+                  <img src="./images/arrow.svg" width="15.96" height="10.56">
+                </div>
+              </a>
+            </div>
+    
+            <div class="tips-left-block">
+              <div class="tips-sign">
+                <h3 class="tips-title">
+                  Уши и глаза
+                </h3>
+                <p class="tips-text">
+                  Владельцам котов необходимо регулярно осматривать
+                  ушки и глаза своих питомцев, ведь это может быть 
+                  признаками заболевания
+                </p>
+              </div> 
+              <a>
+                <div class="tips-button">
+                  <img src="./images/arrow.svg" width="15.96" height="10.56">
+                </div>
+              </a>
+          </div>
+        </div>
+        <div class="tips-right-blocks">
+            
+          <div class="tips-right-block">
+            <div class="tips-sign">
+              <h3 class="tips-title">
+                Когти
+              </h3>
+              <p class="tips-text">
+                Нужно ли стричь когти? Это мы и выясним, плюс ко всему расскажем как подобрать идеальную когтеточку
+              </p>
+            </div>
+            <a>
+              <div class="tips-button">
+                <img src="./images/arrow.svg" width="15.96" height="10.56">
+              </div>
+            </a>
+          </div>
+  
+          <div class="tips-right-block">
+            <div class="tips-sign">
+              <h3 class="tips-title">
+                Питание
+               </h3>
+              <p class="tips-text">
+                В нашем питомнике существует два подхода: натуральное питание и питание промышленными кормами, но выбирать только вам
+              </p>
+            </div>
+            <a>
+              <div class="tips-button">
+                <img src="./images/arrow.svg" width="15.96" height="10.56">
+              </div>
+            </a>
+          </div>
+        </div>
       </div>
-
-      <div>
-        <h3 class="tips-title">
-          Уши и глаза
-        </h3>
-        <p class="tips-text">
-          Владельцам котов необходимо регулярно осматривать
-        ушки и глазасвоих питомцев, ведь это может быть 
-        признаками заболевания
-      </p>
-        <img src="./images/arrow.svg" width="15.96" height="10.56">
-     </div>
-
-      <div>
-        <h3 class="tips-title">
-          Когти
-        </h3>
-        <p class="tips-text">
-          Нужно ли стричь когти? Это мы и выясним, плюс ко всему расскажем как подобрать идеальную когтеточку
-        </p>
-        <img src="./images/arrow.svg" width="15.96" height="10.56">
-      </div>
-
-      <div>
-        <h3 tips-title>
-          Питание
-        </h3>
-      <p class="tips-text">
-        В нашем питомнике существует два подхода: натуральное питание и питание промышленными кормами, но выбирать только вам
-      </p>
-      <img src="./images/arrow.svg" width="15.96" height="10.56">
-      </div>
-    </div>
     </section>
 
     <section class="team">
-      <h2 class="title font-yeseva">
+      <h2 class="title font-yeseva team-main-title">
         Наша команда
       </h2>
-      <p class="subtitle">
+      <p class="subtitle team-subtitle">
         Все сотрудники нашего питомника  дипломированые специалисты
+        <br>
         в области фелинологии и ветеринарии
       </p>
 
-      <div class="slider">
-        <div class="slide-1">
-          <img src="./images/sergey-popov@1x.png" srcset="./images/sergey-popov@2x.png 2x" width="360" height="365" alt="Сергей Попов">
-          <h3 class="-name">
-            Серёжа Попов
-          </h3>
-          <p class="post">
-            Основатель питомника
-          </p>
-          <p class="quote">
-            Наш питомник занимается разведением Мейн-Кунов 
-            на протяжении 15 лет. Мы в ответе за каждого
-            приобретенного вами питомца
-          </p>
+      <div class="container">
+        <div class="slider">
+          <button class="arrows team-arrow-left">
+              <img src="./images/team-arrow-left.svg">
+          </button>
+          <div class="slider-content">
+            <div class="slide slide-1">
+              <div class="team-photo">
+                <img src="./images/sergey-popov@1x.png" srcset="./images/sergey-popov@2x.png 2x" width="360" height="365" alt="Сергей Попов">
+              </div>
+              <div class="slide-text-content">
+                 <div class="background-box">
+                    <div class="text-content">
+                      <div class="team-main-text">
+                          <h3 class="name">
+                            Серёжа Попов
+                          </h3>
+                          <p class="post">
+                            Основатель питомника
+                          </p>
+                      </div>
+                      <p class="quote">
+                          Наш питомник занимается разведением Мейн-Кунов 
+                          <br>
+                          на протяжении 15 лет. Мы в ответе за каждого
+                          <br>
+                          приобретенного вами питомца
+                      </p>
+                      <ul class="team-social-item-list">
+                          <li class="team-social-item">
+                            <a href="#"><img src="./images/social-fb.svg" width="6.76" height="14.49" alt="лого фейсбук"></a>
+                          </li>
+                          <li class="team-social-item">
+                            <a href="#"><img src="./images/social-tweeter.svg" width="20.07" heigh="13.82" alt="лого твиттер"></a>
+                          </li>
+                          <li class="team-social-item">
+                            <a href="#"><img src="./images/social-vk.svg" width="21.03" height="12" alt="лого вконтакте"></a>
+                          </li>
+                      </ul>
+                  </div>
+                 </div>
+              </div>
+              
+            </div>
+          </div>
+
+          <button class="arrows team-arrow-right">
+            <img src="./images/team-arrow-right.svg">
+        </button>
         </div>
-        <ul>
-          <li>
-            <a href="#"><img src="./images/social-fb.svg" width="6.76" height="14.49" alt="лого фейсбук"></a>
-          </li>
-          <li>
-            <a href="#"><img src="./images/social-tweeter.svg" width="20.07" heigh="13.82" alt="лого твиттер"></a>
-          </li>
-          <li>
-            <a href="#"><img src="./images/social-vk.svg" width="21.03" height="12" alt="лого вконтакте"></a>
-          </li>
-        </ul>
       </div>
-    
     </section>
 
     <section class="faq">
-      <h2 class="title font-yeseva">
+
+      <h2 class="title font-yeseva faq-title">
         Вопрос-Ответ
       </h2>
-      <p class="subtitle">
+      <p class="subtitle faq-subtitle">
         Мы ответим на самые популярные ваши вопросы
       </p>
 
-      <div>
-        <p class="number">
-          01
-        </p>
-        <p class="question">
-          С какого возраста можно забирать котенка из питомника?
-        </p>
-        <p class="reply">
-          Есть важная причина, почему котенка стоит забирать домой только после трех месяцев, — это вакцинация. Первые прививки животному делают в возрасте 8 недель. Ревакцинация проводится через 3–4 недели. То есть котенок, покидающий дом позднее 12 недель, максимально защищен от различных вирусов и инфекций.
+      <div class="container">
+        <div class="questions-block">
 
-          Так что, чтобы в дома появился психически и физически здоровый котенок, игривый, жизнерадостный, самостоятельный и воспитанный, не спешите забирать его от кошки-мамы раньше трех месяцев.
-        </p>
+          <div class="question-block ">
+            <div class="question-block-top">
+              <p class="number">
+                01
+              </p>
+              <div class="question-form">
+                <p class="question">
+                  С какого возраста можно забирать котенка из питомника?
+                </p>
+                <button class="question-button question-button-active">
+                  <img src="images/icon-minus.svg">
+                </button>
+              </div>
+            </div>
+            <p class="reply reply-form">
+              Есть важная причина, почему котенка стоит забирать домой только <br>
+              после трех месяцев, — это вакцинация. Первые прививки животному <br>
+               делают в возрасте 8 недель. Ревакцинация проводится через 3–4 <br>
+               недели. То есть котенок, покидающий дом позднее 12 недель, <br>
+               максимально защищен от различных вирусов и инфекций.<br>
+               <br>
+              Так что, чтобы в дома появился психически и физически здоровый котенок,<br>
+               игривый, жизнерадостный, самостоятельный и воспитанный, не <br>
+               спешите забирать его от кошки-мамы раньше трех месяцев.<br>
+            </p>
+          </div>
+
+          <div class="question-block">
+            <div class="question-block-top">
+              <p class="number">
+                02
+              </p>
+              <div class="question-form">
+                <p class="question">
+                  Как зарезервировать котенка?
+                </p>
+                <button class="question-button">
+                  <img src="images/icon-plus.svg">
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="question-block">
+            <div class="question-block-top">
+                <p class="number">
+                03
+                </p>
+              <div class="question-form">
+                <p class="question">
+                Можно ли купить кота, если я живу в другом городе?
+                </p>
+              <button class="question-button">
+                <img src="images/icon-plus.svg">
+              </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="question-block">
+            <div class="question-block-top">
+              <p class="number">
+                04
+              </p>
+              <div class="question-form">
+              <p class="question">
+                Как подготовить дом к приему нового питомца? 
+              </p>
+              <button class="question-button">
+                <img src="images/icon-plus.svg">
+              </button>
+            </div>
+            </div>
+          </div> 
+        </div>
       </div>
-      <div>
-        <p class="number">
-          02
-        </p>
-        <p class="question">
-          Как зарезервировать котенка?
-        </p>
-      </div>
-      <div>
-        <p class="number">
-          03
-        </p>
-        <p class="question">
-          Можно ли купить кота, если я живу в другом городе?
-        </p>
-      </div>
-      <div>
-        <p class="number">
-          04
-        </p>
-        <p class="question">
-          Как подготовить дом к приему нового питомца? 
-        </p>
-      </div> 
     </section>
 
     <section class="reviews">
-  <h2 class="title font-yeseva">
-    Отзывы
-  </h2>
+      <h2 class="title font-yeseva reviews-title">
+        Отзывы
+      </h2>
 
-  <img src="./images/sergey-review@1x.png" srcset="./images/sergey-review@2x.png 2x" width="481" height="331.15" alt="Сергей Попов">
-  <h3 class="customer-name">
-    Серёжа Попов
-  </h3>
-  <p class="review">
-    Я выражаю огромную благодарность вашему питомнику.  Мой Феликс невероятно умен и воспитан. Огромным плюсом питомника является возможность консультироваться 
-    в любое время
-  </p>
-  <p class="date">
-    24 мая 2018
-  </p>
-  <ul>
-    <li>
-      <a href="#"><img src="./images/social-tweeter.svg" width="14.1" heigh="9.71" alt="лого твиттер"></a>
-    </li>
-    <li>
-      <a href="#"><img src="./images/social-vk.svg" width="13" height="8" alt="лого вконтакте"></a>
-    </li>
-  </ul>
+      <div class="container">
+        <div class="review">
+          <div class="review-photo">
+          <img src="./images/sergey-review@1x.png" srcset="./images/sergey-review@2x.png 2x" width="481" height="331.15" alt="Сергей Попов">
+        </div>
+          <div class="review-text-all">
+            <div class="name-and-review">
+              <h3 class="customer-name">
+                Серёжа Попов
+              </h3>
+              <p class="review-text">
+                   Я выражаю огромную благодарность вашему питомнику.<br>
+                   Мой Феликс невероятно умен и воспитан. Огромным плюсом<br>
+                   питомника является возможность консультироваться <br>
+                   в любое время
+              </p>
+            </div>
+  
+            <div class="date-and-social">
+              <p class="date">
+                24 мая 2018
+              </p>
+    
+                <ul class="reviews-social">
+                  <li class="review-social">
+                    <a href="#" class="review-social-tw"></a>
+                  </li>
+                  <li class="review-social">
+                    <a href="#" class="review-social-vk"></a>
+                  </li>
+                </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
     </section>
 
   </main>
   <footer class="footer">
-  <img src="./images/crown.svg" width="47" height="21" alt="Логотип">
+    <div class="container">
 
-  <ul>
-    <li>
-      <a href="#"><img src="./images/social-fb.svg" width="6.76" height="14.49" alt="лого фейсбук"></a>
-    </li>
-    <li>
-      <a href="#"><img src="./images/social-tweeter.svg" width="20.07" heigh="13.82" alt="лого твиттер"></a>
-    </li>
-    <li>
-      <a href="#"><img src="./images/social-vk.svg" width="21.03" height="12" alt="лого вконтакте"></a>
-    </li>
-  </ul>
-  <p class="location color-milky"> 
-    Новосибирск, Пушкинский проспект, 19
-  </p>
-  <p class="phone color-milky">
-    +7 (383) 900-64-65
-  </p>
+      <div class="footer-wraper">
+        <div class="footer-crown">
+          <img src="./images/crown.svg" width="47" height="21" alt="Логотип">
+        </div>
+  
+        <ul class="footer-social">
+          <li>
+            <a href="#" class="footer-social-fb"></a>
+          </li>
+          <li>
+            <a href="#"  class="footer-social-tw"></a>
+          </li>
+          <li>
+            <a href="#"  class="footer-social-vk"></a>
+          </li>
+        </ul>
+        <p class="location color-milky"> 
+          Новосибирск, Пушкинский проспект, 19
+        </p>
+        <p class="phone color-milky phone-bold">
+          +7 (383) 900-64-65
+        </p>
+      </div>
+    </div>
   </footer>
 </body>
 </html>

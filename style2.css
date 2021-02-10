@@ -1,0 +1,27 @@
+
+
+
+
+
+
+
+.tips-right-blocks {
+  display: flex;
+  flex-direction: column;
+}
+
+.tips-right-block {
+  padding-left: 35px;
+
+  display: flex;
+  flex-direction: row;
+  width: calc(50% - 21px);
+  height: 165px;
+
+  border: 1px solid var(--nude);
+}
+
+.tips-right-block:nth-child(1) {
+  margin-bottom: 42px;
+}
+
